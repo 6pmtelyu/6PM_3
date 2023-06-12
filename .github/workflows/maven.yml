@@ -25,3 +25,5 @@ jobs:
         run: mvn -B package --file pom.xml
 
       - name: Build, test, and analyze
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
