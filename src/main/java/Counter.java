@@ -14,6 +14,8 @@ public class Counter {
 		count--;
 	}
 
+	
+	
 	public int getCount() {
 		return count;
 	}
