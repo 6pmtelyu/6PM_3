@@ -1,6 +1,6 @@
 
 public class Counter {
-	privaasdates int count;
+	private int count;
 
 	public Counter() {
 		count = 0;
